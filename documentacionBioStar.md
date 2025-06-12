@@ -473,19 +473,59 @@ pm.collectionVariables.set("nuid", jsonData.User.user_id);
 
 ## CONSULTAS ADICIONALES
 
-- Access Group
-- Access Level
-- User Groups
-- Device Group
-- Door Groups
-- Doors
-- Elevator Groups
-- Elevators
-- Floor Levels
-- Schedules
-- Holiday Groups
-- Trigger Actions
-- Setting
-- Cards
-- Zones
-- Backup
+- **Access Group**: Consultar APIs relacionadas con los grupos de acceso.
+- **Access Level**: Consultar APIs relacionadas con los niveles de acceso.
+- **User Groups**: Listar todos los grupos de usuarios registrados.
+- **Device Group**: Listar todos los grupos de dispositivos registrados.
+- **Door Groups**: Ver todos los grupos de puertas disponibles.
+- **Doors**: Ver detalles de una puerta.
+- **Elevator Groups**: Crear grupos de elevadores.
+- **Elevators**: Crear elevadores.
+- **Floor Levels**: Ver niveles de piso registrados.
+- **Schedules**: Ver todos los horarios registrados.
+- **Holiday Groups**: Ver todos los grupos de días festivos.
+- **Trigger Actions**: Ver configuraciones de Trigger & Actions.
+- **Setting**: Consultar configuraciones generales de BioStar 2.
+- **Cards**: Ver todos los tipos de tarjetas disponibles.
+- **Zones**: Ver todas las zonas configuradas.
+- **Backup**: Ver configuración de respaldo del sistema.
+
+---
+
+## 📌 CONSULTAS ADICIONALES
+
+Listado breve de las API disponibles para distintos módulos en BioStar 2:
+
+### 🔐 Accesos
+
+* **Grupos de Acceso**: Consultar APIs relacionadas con los grupos de acceso (Access Groups).
+* **Niveles de Acceso**: Consultar APIs relacionadas con los niveles de acceso (Access Levels).
+* **Horarios**: Ver todos los horarios registrados.
+* **Grupos de Puertas**: Ver todos los grupos de puertas disponibles.
+* **Puertas**: Ver detalles de una puerta.
+
+### 👥 Usuarios y Grupos
+
+* **Grupos de Usuarios**: Listar todos los grupos de usuarios registrados.
+* **Tarjetas**: Ver todos los tipos de tarjetas disponibles.
+
+### 🏢 Dispositivos y Zonas
+
+* **Grupos de Dispositivos**: Listar todos los grupos de dispositivos registrados.
+* **Zonas**: Ver todas las zonas configuradas.
+
+### 🛗 Elevadores
+
+* **Elevadores**: Crear elevadores.
+* **Grupos de Elevadores**: Crear grupos de elevadores.
+* **Niveles de Piso**: Ver niveles de piso registrados.
+
+### 📅 Calendario y Configuración
+
+* **Grupos de Festivos**: Ver todos los grupos de días festivos.
+* **Acciones y Eventos**: Ver configuraciones de Trigger & Actions.
+* **Configuración del Sistema**: Consultar configuraciones generales de BioStar 2.
+* **Respaldo**: Ver configuración de respaldo del sistema.
+
+---
+
